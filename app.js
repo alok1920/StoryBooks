@@ -23,7 +23,7 @@ app.engine('.hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
 //Routes
-app.use('/', require('./routes/index'))
+app.use('/', require('./routes/index.js'))
 
 app.listen(
     PORT,
